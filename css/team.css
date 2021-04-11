@@ -1,0 +1,80 @@
+.team {
+    margin: 0 auto;
+    width: 1200px;
+}
+
+.team_plot {
+    font-family: "Kaushan Script", sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    color: #333333;
+    text-align: center;
+}
+
+.team_plot_link {
+    font-family: "Montserrat";
+    font-weight: bold;
+    font-size: 30px;
+    color: #333333;
+    text-transform: uppercase;
+    text-align: center;
+
+
+}
+
+.team_plot_link::after {
+    content: "";
+    display: block;
+    width: 61px;
+    height: 4px;
+    background-color:#F38181;
+    margin: 41px auto 0 auto;
+}
+.team_desc {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    color: #999999;
+    text-align: center;
+    margin-top: 46px;
+    margin-bottom: 90px;
+}
+
+.team_img {
+    width: 380px;
+    height: 470px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+}
+
+
+.team_wrapper {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 107px;
+
+
+}
+
+.team_plot_title {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    color:#333333 ;
+    font-size: 14px;
+    text-align: center;
+    text-transform: uppercase;
+    padding-top: 10px;
+   
+}
+
+.team_plot_title_link {
+    font-size: 15px;
+    font-family: "Roboto", sans-serif ;
+    font-weight: 300;
+    color:#999999 ;
+    text-align: center;
+    font-style: italic;
+}

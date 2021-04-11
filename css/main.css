@@ -1,0 +1,86 @@
+.main {
+    margin-top: 128px;
+    width: 1200px;
+    margin: 0 auto;
+    align-self: center;
+}
+
+.section {
+    
+
+
+}
+
+.plot {
+   
+    font-family: "Kaushan Script", sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    color: #333333;
+    text-align: center;
+}
+
+.plot_link {
+    font-family: "Montserrat";
+    font-weight: bold;
+    font-size: 30px;
+    color: #333333;
+    text-transform: uppercase;
+    text-align: center;
+
+}
+
+
+.plot_link::after {
+    content: "";
+    display: block;
+    width: 61px;
+    height: 4px;
+    background-color:#F38181;
+    margin: 41px auto 0 auto;
+}
+
+.card_wrapper {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.card {
+    width: 349px;
+    display: flex;
+    text-align: left;
+    justify-content: space-between;
+    margin-bottom: 90px;
+
+}
+
+.card_text_wrapper {
+    width: 270px;
+  
+}
+
+.card_image {
+    margin: 32px;
+    height: 32px;
+    margin-top: 15px;
+
+
+}
+
+.card_image_title {
+    color:#333333;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+.card_image_desc {
+    font-family: "Roboto", sans-serif;
+    font-size: 15px;
+    color: #999999;
+
+
+}
